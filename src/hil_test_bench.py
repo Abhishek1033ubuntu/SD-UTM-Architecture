@@ -6,6 +6,7 @@ Licensed under GNU GPL v3.0
 """
 
 import time
+import random
 
 class UniversalTransducerMatrix:
     def __init__(self):
@@ -103,11 +104,10 @@ class UniversalTransducerMatrix:
                 print(f"  SAFETY RESET: Array Isolated. Tissue protected. System State: {self.system_state}\n")
                 break
             
-            status_msg = "HIBERNATING (Locked Calculus)"
+            status_msg = "HIBERNATING (Locked Calculus)" if scenario_name == "lithotripsy" else "HIBERNATING (Locked Calculus)"
             metric_unit = "MPa" if scenario_name == "lithotripsy" else "K/s"
-            metric_str = f"{metric_val:.3f} {metric_unit}"
             
-            print(f"{t:<10.1f}{45.00:<12.2f}{tissue_temp:<15.2f}{metric_str:<15}{status_msg}")
+            print(f"{t:.1f}<10}{45.00:.2f}<12}{tissue_temp:.2f}<15}{f'{metric_val} {metric_unit}':<15}{status_msg}")
             time.sleep(0.05)
             
         if self.system_state != "EMERGENCY_STOP":
