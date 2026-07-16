@@ -1,0 +1,47 @@
+```json
+{
+  "system_metadata": {
+    "project_name": "Software-Defined Universal Transducer Matrix",
+    "codename": "APDA-Core",
+    "revision": "2026.1.4",
+    "safety_class": "IEC-60601-1-Class-II"
+  },
+  "array_geometry": {
+    "dome_base_diameter_mm": 350.0,
+    "dome_height_mm": 220.0,
+    "distribution_type": "Fibonacci_Spherical_Cap",
+    "active_elements": {
+      "cmut_channels": 2048,
+      "em_coils": 512
+    }
+  },
+  "nominal_electrical_specs": {
+    "cmut_impedance_ohms": "150 - j200",
+    "cmut_test_frequency_mhz": 1.5,
+    "em_coil_dc_resistance_ohms": 2.4,
+    "max_hv_rail_voltage_v": 180.0
+  },
+  "fmea_tripwire_thresholds": {
+    "critical_tissue_temp_c": 41.0,
+    "max_allowed_cavitation_frequency_mhz": 30.0,
+    "hardware_relay_disconnect_time_us": 20.0,
+    "faraday_shielding_attenuation_db": 94.2
+  },
+  "clinical_exclusion_boundaries": {
+    "lithotripsy": {
+      "max_stone_diameter_mm": 12.0,
+      "target_fragmentation_size_mm": 1.5
+    },
+    "thrombolysis": {
+      "max_clot_length_mm": 40.0
+    },
+    "tumor_ablation": {
+      "max_slurry_volume_ml": 100.0
+    }
+  },
+  "fluidics_management": {
+    "coupling_sleeve_pressure_bar": 0.20,
+    "degasser_nominal_rpm": 3200,
+    "post_procedure_flush_temp_c": 34.0
+  }
+}
