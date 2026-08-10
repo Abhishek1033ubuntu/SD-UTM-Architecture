@@ -1,11 +1,13 @@
 # Software-Defined Universal Transducer Matrix (SD-UTM)
 ### Advanced Phase-Delay Architecture (APDA-Core)
+---
 
 [![System State](https://img.shields.io/badge/System__State-STANDBY-green.svg)]()
-[![Hardware Verification](https://img.shields.io/badge/HIL__Verification-PASSED-brightgreen.svg)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21538518.svg)](https://doi.org/10.5281/zenodo.21538518)
+[![Hardware Verification](https://img.shields.io/badge/HIL__Verification-PASSED-brightgreen.svg)]() 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21538518.svg)](https://doi.org/10.5281/zenodo.21538518) 
 ![Status](https://img.shields.io/badge/Status-Research_POC-orange)
 ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
+
 ---
 
 An open-source systems architecture for a non-invasive, highly automated therapeutic platform utilizing advanced acoustic and crossed electromagnetic energy convergence. The system dynamically matches tissue acoustic impedance, auto-isolates hardware micro-faults, and operates under strict biological boundaries to safely execute lithotripsy, thrombolysis, and tumor ablation without surgical entry.
