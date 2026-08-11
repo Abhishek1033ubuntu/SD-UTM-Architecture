@@ -1,6 +1,5 @@
 # Software-Defined Universal Transducer Matrix (SD-UTM)
 ### Advanced Phase-Delay Architecture (APDA-Core)
----
 
 [![System State](https://img.shields.io/badge/System__State-STANDBY-green.svg)]()
 [![Hardware Verification](https://img.shields.io/badge/HIL__Verification-PASSED-brightgreen.svg)]() 
