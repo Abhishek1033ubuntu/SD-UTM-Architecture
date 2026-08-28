@@ -50,6 +50,7 @@ To verify the system's runtime fault isolation and scenario handlers, execute th
 
 ```bash
 python src/hil_test_bench.py
+```
 
 # Important Notice
 
@@ -63,7 +64,7 @@ By accessing this repository, you agree:
 - Any reproduction, modification, distribution, or commercialization of the IP is strictly prohibited.
 - Enforcement of rights will be pursued under Indian jurisdiction and applicable international treaties.
 
-For licensing inquiries or commercial permissions, please contact:
+# For licensing inquiries or commercial permissions, please contact:
 Abhishek Singh  | UIDAI: 9414 9122 9013
 Email: abhishek1033@gmail.com | abhishek.s@live.in
 Location: Madhya Pradesh, India
