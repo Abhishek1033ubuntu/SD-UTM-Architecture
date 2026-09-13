@@ -4,7 +4,7 @@
 
 [![System State](https://img.shields.io/badge/System__State-STANDBY-green.svg)]()
 [![Hardware Verification](https://img.shields.io/badge/HIL__Verification-PASSED-brightgreen.svg)]() 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21538518.svg)](https://doi.org/10.5281/zenodo.21538518) 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21538518-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.21538518)
 ![Status](https://img.shields.io/badge/Status-Research_POC-orange)
 ![Type](https://img.shields.io/badge/Type-Simulation_Model-blue)
 
